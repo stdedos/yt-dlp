@@ -21,7 +21,8 @@ class SponsorBlockPP(FFmpegPostProcessor):
         'selfpromo': 'Unpaid/Self Promotion',
         'interaction': 'Interaction Reminder',
         'preview': 'Preview/Recap',
-        'music_offtopic': 'Non-Music Section'
+        'music_offtopic': 'Non-Music Section',
+        'filler': 'Filler Tangent',
     }
 
     def __init__(self, downloader, categories=None, api='https://sponsor.ajay.app'):
